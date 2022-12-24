@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
@@ -13,8 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image:
-            AssetImage('images/diamond.gif'),
+            image: AssetImage('images/diamond.gif'),
           ),
         ),
       ),
